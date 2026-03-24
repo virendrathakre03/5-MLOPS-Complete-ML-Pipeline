@@ -4,3 +4,6 @@
 2026-03-24 15:31:43,733 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
 2026-03-24 15:31:43,737 - data_ingestion - DEBUG - data preprocessing completed
 2026-03-24 15:31:43,756 - data_ingestion - DEBUG - train and test data save to ./data\raw
+2026-03-24 15:34:59,141 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
+2026-03-24 15:34:59,145 - data_ingestion - DEBUG - data preprocessing completed
+2026-03-24 15:34:59,171 - data_ingestion - DEBUG - train and test data save to ./data\raw
