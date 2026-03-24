@@ -7,3 +7,23 @@
 2026-03-24 15:34:59,141 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
 2026-03-24 15:34:59,145 - data_ingestion - DEBUG - data preprocessing completed
 2026-03-24 15:34:59,171 - data_ingestion - DEBUG - train and test data save to ./data\raw
+2026-03-24 19:09:44,563 - data_ingestion - DEBUG - parameters load from params.yaml
+2026-03-24 19:09:44,615 - data_ingestion - ERROR - unexcepted error occured during loading the data: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-03-24 19:09:44,616 - data_ingestion - ERROR - unexcepted error during preprocessing 'NoneType' object has no attribute 'drop'
+2026-03-24 19:09:44,616 - data_ingestion - ERROR - failed to complete the data ingestion step :'NoneType' object has no attribute 'drop'
+2026-03-24 19:10:40,018 - data_ingestion - DEBUG - parameters load from params.yaml
+2026-03-24 19:10:40,064 - data_ingestion - ERROR - unexcepted error occured during loading the data: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-03-24 19:10:40,065 - data_ingestion - ERROR - unexcepted error during preprocessing 'NoneType' object has no attribute 'drop'
+2026-03-24 19:10:40,065 - data_ingestion - ERROR - failed to complete the data ingestion step :'NoneType' object has no attribute 'drop'
+2026-03-24 19:11:39,098 - data_ingestion - DEBUG - parameters load from params.yaml
+2026-03-24 19:11:40,221 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
+2026-03-24 19:11:40,226 - data_ingestion - DEBUG - data preprocessing completed
+2026-03-24 19:11:40,247 - data_ingestion - DEBUG - train and test data save to ./data\raw
+2026-03-24 19:11:55,296 - data_ingestion - DEBUG - parameters load from params.yaml
+2026-03-24 19:11:55,697 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
+2026-03-24 19:11:55,699 - data_ingestion - DEBUG - data preprocessing completed
+2026-03-24 19:11:55,717 - data_ingestion - DEBUG - train and test data save to ./data\raw
+2026-03-24 19:14:00,326 - data_ingestion - DEBUG - parameters load from params.yaml
+2026-03-24 19:14:00,830 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv
+2026-03-24 19:14:00,833 - data_ingestion - DEBUG - data preprocessing completed
+2026-03-24 19:14:00,848 - data_ingestion - DEBUG - train and test data save to ./data\raw

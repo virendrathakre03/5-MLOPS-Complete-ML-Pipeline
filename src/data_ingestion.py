@@ -4,6 +4,24 @@ import logging # Used to track program execution (logs)
 import yaml # Used to read configuration file (params.yaml) , Helps avoid hardcoding values (like test_size)
 from sklearn.model_selection import train_test_split
 import sys 
+import yaml
+
+def load_params(params_path:str)->dict:
+    """load parameters from params.yaml file """
+    try:
+        with open(params_path,"r") as file:
+            params = yaml.safe_load(file)
+        logger.debug("parameters load from %s",params_path)
+        return params
+    except FileNotFoundError:
+        logger.error("file not found :%s", params_path)
+        raise
+    except yaml.YAMLError as e:
+        logger.error("YAML error : %s",e)
+        raise
+    except Exception as e:
+        logger.error("Unexpected error : %s",e)
+        raise
 
 # Ensure the "logs" directory exists
 log_dir = 'logs'
@@ -74,7 +92,9 @@ def save_data(train_data:pd.DataFrame,test_data:pd.DataFrame,data_path:str)-> No
 
 def main():
     try:
-        test_size = 0.20
+        params = load_params(params_path="params.yaml")
+        test_size = params['data_ingestion']['test_size']
+        # test_size = 0.20 before not create params.yaml
         data_path = "https://raw.githubusercontent.com/virendrathakre03/mlops_end_to_end_pipeline/refs/heads/main/experiments/spam.csv"
         df = load_data(data_path)
         final_df = preprocess_data(df)

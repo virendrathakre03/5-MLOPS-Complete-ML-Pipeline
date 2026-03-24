@@ -17,3 +17,15 @@
 2026-03-24 15:38:46,229 - feature engineering  - DEBUG - tfidf applied and data transformed
 2026-03-24 15:38:46,357 - feature engineering  - DEBUG - data save to ./data\processed\train_tfidf.csv
 2026-03-24 15:38:46,396 - feature engineering  - DEBUG - data save to ./data\processed\test_tfidf.csv
+2026-03-24 19:11:58,375 - feature engineering  - DEBUG - parameters load from params.yaml
+2026-03-24 19:11:58,384 - feature engineering  - DEBUG - data loaded and Nans filled from data\interim\train_processed.csv
+2026-03-24 19:11:58,388 - feature engineering  - DEBUG - data loaded and Nans filled from data\interim\test_processed.csv
+2026-03-24 19:11:58,451 - feature engineering  - DEBUG - tfidf applied and data transformed
+2026-03-24 19:11:58,551 - feature engineering  - DEBUG - data save to ./data\processed\train_tfidf.csv
+2026-03-24 19:11:58,580 - feature engineering  - DEBUG - data save to ./data\processed\test_tfidf.csv
+2026-03-24 19:14:03,480 - feature engineering  - DEBUG - parameters load from params.yaml
+2026-03-24 19:14:03,490 - feature engineering  - DEBUG - data loaded and Nans filled from data\interim\train_processed.csv
+2026-03-24 19:14:03,493 - feature engineering  - DEBUG - data loaded and Nans filled from data\interim\test_processed.csv
+2026-03-24 19:14:03,551 - feature engineering  - DEBUG - tfidf applied and data transformed
+2026-03-24 19:14:03,637 - feature engineering  - DEBUG - data save to ./data\processed\train_tfidf.csv
+2026-03-24 19:14:03,661 - feature engineering  - DEBUG - data save to ./data\processed\test_tfidf.csv
